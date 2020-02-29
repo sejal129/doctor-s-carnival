@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/img/zomato.jpg</ImageUrl>
+    <NavigateUrl>http://www.zomato.com</NavigateUrl>
+    <AlternativeText>Visit Zomato </AlternativeText>
+    <Height>100</Height>
+    <Width>400</Width>
+    <Impressions>4</Impressions>
+    <Keyword>Comment</Keyword>
+ </Ad>
+  <Ad>
+    <ImageUrl>~/img/oppo.jpg</ImageUrl>
+    <NavigateUrl>http://www.oppo.com</NavigateUrl>
+    <AlternativeText>Visit Oppo </AlternativeText>
+    <Height>100</Height>
+    <Width>450</Width>
+    <Impressions>2</Impressions>
+    <Keyword>Comment</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/img/hut.jpg</ImageUrl>
+    <NavigateUrl>http://www.pizzahut.com</NavigateUrl>
+    <AlternativeText>Visit Pizza Hut </AlternativeText>
+    <Height>100</Height>
+    <Width>400</Width>
+    <Impressions>3</Impressions>
+    <Keyword>Comment</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/img/netflix.jpg</ImageUrl>
+    <NavigateUrl>http://www.netflix.com</NavigateUrl>
+    <AlternativeText>Visit Netflix</AlternativeText>
+    <Height>100</Height>
+    <Width>400</Width>
+    <Impressions>3</Impressions>
+    <Keyword>Comment</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/img/fortis.jpg</ImageUrl>
+    <NavigateUrl>http://www.fortishospital.com</NavigateUrl>
+    <AlternativeText>Visit Fortis Hospital Websites </AlternativeText>
+    <Height>100</Height>
+    <Width>400</Width>
+    <Impressions>2</Impressions>
+    <Keyword>Comment</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/img/flipkart.jpg</ImageUrl>
+    <NavigateUrl>http://www.flipkart.com</NavigateUrl>
+    <AlternativeText>Visit Flipkart </AlternativeText>
+    <Height>100</Height>
+    <Width>400</Width>
+    <Impressions>1</Impressions>
+    <Keyword>Comment</Keyword>
+  </Ad>
+</Advertisements>

@@ -1,0 +1,184 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.Master.cs" Inherits="doctor.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        #form1
+        {
+            height: 611px;
+            width: 719px;
+        }
+        .style1
+        {
+            width: 100%;
+            height: 428px;
+        }
+        .style2
+        {
+            font-family: "Berlin Sans FB";
+            font-size: 40pt;
+            color: #006666;
+        }
+        .style4
+        {
+            font-size: 40pt;
+        }
+        .style5
+        {
+            width: 323px;
+        }
+    </style>
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table class="style1">
+        <tr>
+            <td bgcolor="White" colspan="6">
+                <span class="style2"><strong>Doctors On Demand&nbsp;&nbsp; </strong></span>
+                <span class="style4">&nbsp;&nbsp; </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Image ID="Image1" 
+                    runat="server" Height="99px" ImageUrl="~/img/Doctors on Demand.jpg" 
+                    Width="92px" />
+                &nbsp;&nbsp;<br />
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="#006666" colspan="2">
+                <asp:Panel ID="Panel1" runat="server" BackColor="#006666" Height="432px" 
+                    style="margin-top: 0px">
+                    <table class="style1">
+                        <tr>
+                            <td>
+                                &nbsp;</td>
+                            <td rowspan="7" style="text-align: center" class="style5">
+                                <asp:Menu ID="Menu2" runat="server" 
+                                    ForeColor="White" StaticSubMenuIndent="100px" Font-Bold="True" 
+                                    
+                                    style="font-family: 'Berlin Sans FB'; text-align: center; font-size: xx-large" 
+                                    DynamicHorizontalOffset="-100" DynamicVerticalOffset="10">
+                                    <Items>
+                                        <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/WebForm9.aspx">
+                                        </asp:MenuItem>
+                   
+                                        <asp:MenuItem Text="Profile" Value="Profile" NavigateUrl="~/WebForm4.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Appointments" Value="Appointments" 
+                                            NavigateUrl="~/WebForm12.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="Reviews" Value="Reviews" NavigateUrl="~/WebForm13.aspx">
+                                        </asp:MenuItem>
+                                        <asp:MenuItem Text="About Us" Value="About Us" NavigateUrl="~/WebForm16.aspx"></asp:MenuItem>
+                                    </Items>
+                                    <StaticMenuItemStyle Font-Bold="True" ForeColor="White" Height="100px" />
+                                    <StaticSelectedStyle ItemSpacing="50px" VerticalPadding="50px" />
+                                </asp:Menu>
+                            </td>
+                            <td>
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &nbsp;</td>
+                            <td>
+                                &nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &nbsp;</td>
+                            <td>
+                                &nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &nbsp;</td>
+                            <td>
+                                &nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &nbsp;</td>
+                            <td>
+                                &nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &nbsp;</td>
+                            <td>
+                                &nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &nbsp;</td>
+                            <td>
+                                &nbsp;</td>
+                        </tr>
+                    </table>
+                </asp:Panel>
+                </td>
+            <td colspan="4">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;</td>
+            <td>
+                &nbsp;</td>
+            <td>
+                &nbsp;</td>
+            <td>
+                &nbsp;</td>
+            <td>
+                &nbsp;</td>
+            <td>
+                &nbsp;</td>
+        </tr>
+    </table>
+    </form>
+    </body>
+</html>
